@@ -1,0 +1,13 @@
+[33mWARNING [0m selenium.webdriver.common.selenium_manager:selenium_manager.py:151 The chromedriver version (143.0.7499.169) detected in PATH at C:\Users\Sourabh\AppData\Local\Programs\Python\Python314\Scripts\chromedriver.exe might not be compatible with the detected chrome version (144.0.7559.133); currently, chromedriver 144.0.7559.133 is recommended for chrome 144.*, so it is advised to delete the driver in PATH and retry
+[32mINFO    [0m root:test_Credkart_User_Profile_001.py:161 Testcase test_verify_Credkart_url_003 is starting
+[32mINFO    [0m root:test_Credkart_User_Profile_001.py:164 Opening browser and getting https://automation.credence.in/register
+[32mINFO    [0m root:test_Credkart_User_Profile_001.py:168 Generated fake data for username --> chenrhonda and email --> matthewtaylor@example.org
+[32mINFO    [0m root:test_Credkart_User_Profile_001.py:177 entering the username--> chenrhonda
+[32mINFO    [0m root:test_Credkart_User_Profile_001.py:180 entering the email--> matthewtaylor@example.org
+[32mINFO    [0m root:test_Credkart_User_Profile_001.py:183 entering the password
+[32mINFO    [0m root:test_Credkart_User_Profile_001.py:186 entering the confirm password
+[32mINFO    [0m root:test_Credkart_User_Profile_001.py:188 clicking the registration button
+[32mINFO    [0m root:test_Credkart_User_Profile_001.py:201 User registration fail and taking screenshot
+[32mINFO    [0m root:test_Credkart_User_Profile_001.py:161 Testcase test_verify_Credkart_url_003 is starting
+[32mINFO    [0m root:test_Credkart_User_Profile_001.py:164 Opening browser and getting https://automation.credence.in/register
+[32mINFO    [0m root:test_Credkart_User_Profile_001.py:168 Generated fake data for username --> john50 and email --> dlee@example.com
