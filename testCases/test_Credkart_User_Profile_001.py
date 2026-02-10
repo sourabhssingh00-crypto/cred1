@@ -43,7 +43,7 @@ class Test_User_Profile:
     @allure.issue("title verification")
     @allure.story("CredKart : User login")
     @pytest.mark.smoke
-    # @pytest.mark.flaky(reruns=1, rerun_delay=1)
+    @pytest.mark.flaky(reruns=1, rerun_delay=1)
     @pytest.mark.dependency(name = "test_verify_Credkart_url_001")
     @pytest.mark.order(1)
     def test_verify_Credkart_url_001(self):
@@ -82,9 +82,9 @@ class Test_User_Profile:
     @allure.link(login_url)
     @allure.issue("user login")
     @allure.story("CredKart : User login")
-    # @pytest.mark.smoke
-    # @pytest.mark.flaky(reruns=1, rerun_delay=1)
-    #@pytest.mark.dependency(depends=["test_verify_Credkart_url_001"])
+    @pytest.mark.smoke
+    @pytest.mark.flaky(reruns=1, rerun_delay=1)
+    @pytest.mark.dependency(depends=["test_verify_Credkart_url_001"])
     @pytest.mark.order(2)
     def test_Credkart_Login_002(self):
 
@@ -155,7 +155,7 @@ class Test_User_Profile:
     @allure.story("CredKart : User registration")
     @pytest.mark.smoke
     @pytest.mark.flaky(reruns=1, rerun_delay=1)
-    #@pytest.mark.dependency(depends=["test_verify_Credkart_url_001"])
+    @pytest.mark.dependency(depends=["test_verify_Credkart_url_001"])
     @pytest.mark.order(3)
     def test_Credkart_registration_003(self):
         self.log.info(f"Testcase test_verify_Credkart_url_003 is starting")

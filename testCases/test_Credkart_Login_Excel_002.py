@@ -31,9 +31,9 @@ class Test_User_Profile :
     @allure.issue("user login")
     @allure.story("CredKart : User login")
     @pytest.mark.smoke
-    # @pytest.mark.flaky(reruns = 1, rerun_delay = 1)
-    # @pytest.mark.dependency(depends=["test_verify_Credkart_url_001"])
-    # @pytest.mark.order(4)
+    @pytest.mark.flaky(reruns = 1, rerun_delay = 1)
+    @pytest.mark.dependency(depends=["test_verify_Credkart_url_001"])
+    @pytest.mark.order(4)
     def test_Credkart_login_excel_ddt_004(self):
         self.log.info("Testcase test_Credkart_login_excel_ddt_004 is started")
         self.lp = Login_Page_Class(self.driver) # login page class object and now we can access the methods

@@ -41,8 +41,16 @@ class Login_Page_Class:
         try:
 
             self.wait.until(expected_conditions.visibility_of_element_located((By.XPATH,self.click_menu_button_Xpath)))
-            self.driver.find_element(By.XPATH,self.click_login_button_Xpath).click()
+            # self.driver.find_element(By.XPATH,self.click_login_button_Xpath).click()
             return "pass"
         except:
             return "fail"
 
+# def verify_menu_button_visibility(self):
+#     try:
+#         # Wait for the Menu button to appear (proves login worked)
+#         self.wait.until(expected_conditions.visibility_of_element_located((By.XPATH, self.click_menu_button_Xpath)))
+#         # REMOVED: self.driver.find_element(By.XPATH,self.click_login_button_Xpath).click()
+#         return "pass"
+#     except:
+#         return "fail"
